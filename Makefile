@@ -8,5 +8,8 @@ OUT= ./resume/
 all: $(SRC)
 	pdflatex -output-directory $(OUT) $(SRC)
 
+open: $(OUT)resume.pdf
+	xpdf $(OUT)resume.pdf
+
 clean:
 	rm $(OUT)*.*
