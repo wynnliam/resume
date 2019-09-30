@@ -1,0 +1,46 @@
+\documentclass[12pt]{article}
+
+\usepackage[margin=0.75in]{geometry}
+\usepackage{enumitem}
+
+% Allows for left, center, and right alligned text on the
+% same line.
+\newcommand\textline[4][t]{%
+  \par\smallskip\noindent\parbox[#1]{.333\textwidth}{\raggedright\texttt#2}%
+  \parbox[#1]{.333\textwidth}{\centering#3}%
+  \parbox[#1]{.333\textwidth}{\raggedleft#4}\par\smallskip%
+}
+
+% Disables page numbering.
+\pagenumbering{gobble}
+
+\begin{document}
+
+	\begin{center}
+		\noindent \Large{\textbf{Liam Wynn}}\\
+	\end{center}
+
+	\begin{flushleft}
+	\textline[t]{wynnliam@pdx.edu}{Portland, OR}{503 747 9596}
+	\noindent\makebox[\linewidth]{\rule{\textwidth}{0.4pt}}
+	\end{flushleft}
+
+
+	% The * disables numbering.
+	\section*{Education}
+	\noindent {\bf Portland State University, Portland} \hfill Portland, Oregon \\
+ 	\noindent \emph {B.S., magna cum laude, Computer Science, Mathematics Minor} \hfill 2014 - 2019
+	\begin{itemize}[noitemsep]
+		\item GPA: 3.85
+		\item Academic Honors: Dean's List (7 semesters).
+		\item Inducted into Phi Kappa Phi National Honor Society 2018.
+	\end{itemize}
+
+	\section*{Technical Skills}
+		\noindent \normalsize{C, C++, C\#, Python, Java, Javascript, SQL, x86-64 Assembly, Haskell}\\
+		\noindent \normalsize{GNU/Linux, Vim, GDB, Valgrind, Tensorflow, NumPy, OpenGL, SDL, jQuery, Node.js}\\
+
+	\section*{Experience}
+	Heres some experience I got.
+
+\end{document}
