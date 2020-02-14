@@ -1,14 +1,14 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2019.8.24)  17 OCT 2019 06:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2020.1.31)  13 FEB 2020 21:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **./src/master/resume.tex
 (./src/master/resume.tex
-LaTeX2e <2018-12-01>
+LaTeX2e <2019-10-01> patch level 1
 (/usr/share/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
+Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
 (/usr/share/texmf-dist/tex/latex/base/size12.clo
-File: size12.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
+File: size12.clo 2019/08/27 v1.4j Standard LaTeX file (size option)
 )
 \c@part=\count80
 \c@section=\count81
@@ -53,7 +53,7 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@dimlist=\toks15
 )
 (/usr/share/texmf-dist/tex/latex/enumitem/enumitem.sty
-Package: enumitem 2019/02/04 v3.8 Customized lists
+Package: enumitem 2019/06/20 v3.9 Customized lists
 \labelindent=\skip43
 \enit@outerparindent=\dimen111
 \enit@toks=\toks16
@@ -63,12 +63,14 @@ Package: enumitem 2019/02/04 v3.8 Customized lists
 )
 (/usr/share/texmf-dist/tex/latex/psnfss/pifont.sty
 Package: pifont 2005/04/12 PSNFSS-v9.2a Pi font support (SPQR) 
-LaTeX Font Info:    Try loading font information for U+pzd on input line 63.
+LaTeX Font Info:    Trying to load font information for U+pzd on input line 63.
+
 
 (/usr/share/texmf-dist/tex/latex/psnfss/upzd.fd
 File: upzd.fd 2001/06/04 font definitions for U/pzd.
 )
-LaTeX Font Info:    Try loading font information for U+psy on input line 64.
+LaTeX Font Info:    Trying to load font information for U+psy on input line 64.
+
 
 (/usr/share/texmf-dist/tex/latex/psnfss/upsy.fd
 File: upsy.fd 2001/06/04 font definitions for U/psy.
@@ -128,7 +130,8 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 30.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 30.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 37.
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 3
+7.
 (/usr/share/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
@@ -158,20 +161,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 84--88
 
 [2] (./resume//resume.aux) ) 
 Here is how much of TeX's memory you used:
- 1137 strings out of 492623
- 16426 string characters out of 6135669
- 87461 words of memory out of 5000000
- 5085 multiletter control sequences out of 15000+600000
+ 1161 strings out of 492167
+ 16655 string characters out of 6131558
+ 89422 words of memory out of 5000000
+ 5559 multiletter control sequences out of 15000+600000
  8795 words of font info for 31 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 24i,4n,32p,418b,188s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 25i,4n,34p,418b,190s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
 /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmtt12.pfb>
-Output written on ./resume//resume.pdf (2 pages, 75503 bytes).
+Output written on ./resume//resume.pdf (2 pages, 75515 bytes).
 PDF statistics:
  35 PDF objects out of 1000 (max. 8388607)
  24 compressed objects within 1 object stream
